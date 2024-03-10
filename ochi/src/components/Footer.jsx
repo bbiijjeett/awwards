@@ -1,10 +1,18 @@
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable no-unused-vars */
 import React from "react";
 
-const Navbar = () => {
+const Footer = () => {
   return (
-    <div className="fixed z-[999] w-full px-20 py-8 font-['Neue Montreal'] flex justify-between items-center">
-      <div className="logo">
+    <div className="flex gap-5 w-full h-screen bg-zinc-100 p-20 text-black">
+      <div className="w-1/2 h-full flex flex-col justify-between">
+        <div className="heading">
+          <h1 className="text-[6vw] leading-none uppercase font-bold tracking-tighter">
+            EYE-
+          </h1>
+          <h1 className="text-[6vw] leading-none uppercase font-bold tracking-tighter">
+            OPENING
+          </h1>
+        </div>
         <svg
           width="72"
           height="30"
@@ -34,22 +42,20 @@ const Navbar = () => {
           ></path>
         </svg>
       </div>
-      <div className="links flex gap-10">
-        {["Services", "Our work", "About us", "Insights", "Contact us"].map(
-          (item, index) => (
-            <a
-              key={index}
-              className={`text-lg capitalize font-light hover:cursor-pointer hover:underline  ${
-                index === 4 && "ml-32"
-              }`}
-            >
+      <div className="w-1/2">
+        <h1 className="text-[6vw] leading-none uppercase font-bold tracking-tighter">
+          Presentations
+        </h1>
+        <div className="dets mt-10">
+          {["Facebook", "Twitter", "Instagram"].map((item, index) => (
+            <a key={index} href="#" className="block text-xl font-light">
               {item}
             </a>
-          )
-        )}
+          ))}
+        </div>
       </div>
     </div>
   );
 };
 
-export default Navbar;
+export default Footer;
