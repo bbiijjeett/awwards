@@ -10,6 +10,7 @@ const Features = () => {
     gsap.to("#exploreVideo", {
       scrollTrigger: {
         trigger: "#exploreVideo",
+        type: "touch,pointer",
         toggleActions: "play pause reverse restart",
         start: "-10% bottom",
       },

@@ -39,6 +39,7 @@ const VideoCarousel = () => {
       scrollTrigger: {
         trigger: "#video",
         toggleActions: "restart none none none",
+        type: "touch,pointer",
       },
       onComplete: () => {
         setVideo((pre) => ({
