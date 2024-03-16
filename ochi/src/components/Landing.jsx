@@ -9,7 +9,7 @@ const Landing = () => {
       data-scroll-offset="0, -100%"
       data-scroll-speed="-.3"
       data-scroll-position="top"
-      className="w-full h-screen bg-zinc-900 pt-1"
+      className="w-full h-screen bg-zinc-900 pt-1 z-10"
     >
       <div className="textstructure mt-52 px-20">
         {["We Create", "Eye-opening", "Presentations"].map((item, index) => (
