@@ -30,7 +30,7 @@ const Page2 = () => {
               handleBGimg(images[index]);
             }}
           >
-            <h1 className="text-7xl md:text-8xl uppercase tk-freight-big-pro relative z-10 leading-1 md:leading-[5vw] hover:italic hover:text-black">
+            <h1 className="select-none text-7xl md:text-8xl uppercase tk-freight-big-pro relative z-10 leading-1 md:leading-[5vw] hover:italic hover:text-black">
               {item}
             </h1>
             <div className="moving absolute top-[50%] -translate-y-[45%]  bg-[#F5E41B] font-xs whitespace-nowrap text-base uppercase py-1 ">

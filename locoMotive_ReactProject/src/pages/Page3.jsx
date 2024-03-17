@@ -8,7 +8,7 @@ const Page3 = () => {
       <div className="img-container columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 [&>div:not(:first-child)]:mt-8">
         <div className="img-div relative h-full w-full overflow-hidden">
           <div className="absolute z-50 h-full w-full rounded-lg flex items-center opacity-0 bg-black hover:opacity-100 transition-all ease duration-[0.5s]">
-            <p className="w-full h-ful text-semibold text-5xl text-center uppercase text-white transition-all ease duration-[0.5s]  delay-[0.2s]">
+            <p className="select-none w-full h-ful text-semibold text-5xl text-center uppercase text-white transition-all ease duration-[0.5s]  delay-[0.2s]">
               Converse <br />
               <em>nextStudio</em>
             </p>
@@ -21,7 +21,7 @@ const Page3 = () => {
         </div>
         <div className="img-div relative h-full w-full overflow-hidden">
           <div className="absolute z-50 w-full h-full rounded-lg flex items-center opacity-0 bg-black hover:opacity-100 transition-all ease-in duration-300 ">
-            <p className="w-full h-ful text-semibold text-5xl text-center uppercase text-white">
+            <p className="select-none w-full h-ful text-semibold text-5xl text-center uppercase text-white">
               FUTUREVVORLD <br />
               <em>Identity &amp; Website</em>
             </p>
@@ -35,7 +35,7 @@ const Page3 = () => {
         </div>
         <div className="img-div relative h-full w-full overflow-hidden">
           <div className="absolute z-50 w-full h-full rounded-lg flex items-center opacity-0 bg-black hover:opacity-100 transition-all ease-in duration-300 ">
-            <p className="w-full h-ful text-semibold text-5xl text-center uppercase text-white">
+            <p className="select-none w-full h-ful text-semibold text-5xl text-center uppercase text-white">
               Converse <br />
               <em>Basketball Identity</em>
             </p>
@@ -48,7 +48,7 @@ const Page3 = () => {
         </div>
         <div className="img-div relative h-full w-full overflow-hidden">
           <div className="absolute z-50 w-full h-full rounded-lg flex items-center opacity-0 bg-black hover:opacity-100 transition-all ease-in duration-300 ">
-            <p className="w-full h-ful text-semibold text-5xl text-center uppercase text-white">
+            <p className="select-none w-full h-ful text-semibold text-5xl text-center uppercase text-white">
               PUBLIC.COM <br />
               <em> CAMPAIGN</em>
             </p>
@@ -61,7 +61,7 @@ const Page3 = () => {
         </div>
         <div className="img-div relative h-full w-full overflow-hidden">
           <div className="absolute z-50 w-full h-full rounded-lg flex items-center opacity-0 bg-black hover:opacity-100 transition-all ease-in duration-300 ">
-            <p className="w-full h-ful text-semibold text-5xl text-center uppercase text-white">
+            <p className="select-none w-full h-ful text-semibold text-5xl text-center uppercase text-white">
               NIKE <br />
               <em>NFL 2022 CAMPAIGN</em>
             </p>
@@ -74,7 +74,7 @@ const Page3 = () => {
         </div>
         <div className="img-div relative h-full w-full overflow-hidden">
           <div className="absolute z-50 w-full h-full rounded-lg flex items-center opacity-0 bg-black hover:opacity-100 transition-all ease-in duration-300 ">
-            <p className="w-full h-ful text-semibold text-5xl text-center uppercase text-white">
+            <p className="select-none w-full h-ful text-semibold text-5xl text-center uppercase text-white">
               jeen-yuhs <br />
               <em>FILM IDENTITY</em>
             </p>
