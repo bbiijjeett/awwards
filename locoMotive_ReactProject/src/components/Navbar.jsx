@@ -8,13 +8,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full z-50 px-4 md:px-8 lg:px-12 py-3 md:py-4 flex items-center justify-between">
-      <div className="logo w-1/3 md:w-1/4 lg:w-1/5">
+    <div className=" bg-[#F5E41B] md:bg-transparent md:fixed w-full z-50 px-10 md:px-20 py-6 md:py-9 flex items-center justify-evenly  md:justify-between">
+      <div className="logo w-2/4 md:w-2/3">
         <svg
           className="core-logo"
           xmlns="http://www.w3.org/2000/svg"
-          width="100%"
-          height="100%"
+          width="94"
+          height="21"
           viewBox="0 0 94 21"
         >
           <path
@@ -23,12 +23,31 @@ const Navbar = () => {
           ></path>
         </svg>
       </div>
-      <div className="flex w-2/3 md:w-3/4 lg:w-4/5 justify-end items-center">
+      <div className="flex w-2/4 md:w-1/3  justify-end gap-2 md:gap-10">
+        <a className="text-sm md:text-lg hover:underline" href="#">
+          PROJECT
+        </a>
+        <a
+          className={`text-sm md:text-lg hover:underline ${
+            menu ? "hidden" : ""
+          }`}
+          href="#"
+        >
+          ABOUT
+        </a>
+        <a
+          className={`text-sm md:text-lg hover:underline ${
+            menu ? "hidden" : ""
+          } `}
+          href="#"
+        >
+          STUDIES
+        </a>
         <button
           onClick={handleMenu}
-          className={`lg:hidden ${
+          className={`${
             menu ? "" : "rotate-45"
-          } transition-all ease duration-500`}
+          } transition-all ease duration-500 pb`}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -42,21 +61,6 @@ const Navbar = () => {
             </g>
           </svg>
         </button>
-        <div
-          className={`${
-            menu ? "hidden" : "flex"
-          } lg:flex w-full lg:w-auto justify-between items-center`}
-        >
-          <a className="text-sm uppercase md:text-lg hover:underline" href="#">
-            PROJECT
-          </a>
-          <a className="text-sm md:text-lg hover:underline" href="#">
-            ABOUT
-          </a>
-          <a className="text-sm md:text-lg hover:underline" href="#">
-            STUDIES
-          </a>
-        </div>
       </div>
     </div>
   );

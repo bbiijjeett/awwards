@@ -3,7 +3,7 @@ const Foot = () => {
     <div
       data-scroll
       data-scroll-speed="-2"
-      className="px-5 md:px-20 py-3 md:py-9 b-0  flex   justify-between"
+      className="px-5 pb-40 md:px-20 py-3 md:py-9 b-0  flex   justify-between"
     >
       <a className="text-lg hover:underline" href="#">
         CONTACT
