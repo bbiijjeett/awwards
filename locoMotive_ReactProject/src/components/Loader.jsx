@@ -44,7 +44,7 @@ const Loader = () => {
       </div>
       <div
         id="text"
-        className="h-full mt-[100px] w-full tracking-tight flex flex-col justify-center items-center text-4xl md:text-8xl tk-freight-big-pro leading-8 md:leading-[5vw] "
+        className="h-full mt-[100px] w-full tracking-tight flex flex-col justify-center items-center text-2xl md:text-8xl tk-freight-big-pro leading-8 md:leading-[5vw] "
       >
         <p>
           <em>We are a</em> CREATIVE <em>studio</em>
