@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.img-div:hover img {
+  scale: 1.1;
+}
+
+.elem .blur1 {
+  /* position: absolute; */
+
+  left: 39%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 228, 27, 0.7) 0%,
+    rgba(245, 228, 27, 1) 50%,
+    rgba(245, 228, 27, 0.7) 100%
+  );
+
+  z-index: 8;
+}
+
+.elem .moving {
+  transform: translate(0, -45%) scaleY(0);
+  transition: all ease 0.3s;
+}
+
+.elem:hover .moving {
+  transform: translate(0, -45%) scaleY(1);
+}
+
+.elem .moving .movingIn h5 {
+  opacity: 0;
+  transition: all ease 0.3;
+  transition-delay: 0.2 s;
+}
+
+.elem:hover .moving h5 {
+  opacity: 1;
+}
+
+.animate-marquee {
+  animation: marquee 5s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
