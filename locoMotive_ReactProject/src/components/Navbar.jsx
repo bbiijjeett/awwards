@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full z-50 px-5 md:px-20 py-6 md:py-9 flex items-center justify-between  md:justify-between">
+    <div className="fixed w-full z-50 px-10 md:px-20 py-6 md:py-9 flex items-center justify-evenly  md:justify-between">
       <div className="logo w-2/4 md:w-2/3">
         <svg
           className="core-logo"
@@ -23,7 +23,7 @@ const Navbar = () => {
           ></path>
         </svg>
       </div>
-      <div className="flex w-2/4 md:w-1/3 justify-end gap-2 md:gap-10">
+      <div className="flex w-2/4 md:w-1/3  justify-end gap-2 md:gap-10">
         <a className="text-sm md:text-lg hover:underline" href="#">
           PROJECT
         </a>
@@ -47,7 +47,7 @@ const Navbar = () => {
           onClick={handleMenu}
           className={`${
             menu ? "" : "rotate-45"
-          } transition-all ease duration-500`}
+          } transition-all ease duration-500 pb`}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
