@@ -47,7 +47,7 @@ const Navbar = () => {
             menu ? "hidden" : "flex"
           } lg:flex w-full lg:w-auto justify-between items-center`}
         >
-          <a className="text-sm md:text-lg hover:underline" href="#">
+          <a className="text-sm uppercase md:text-lg hover:underline" href="#">
             PROJECT
           </a>
           <a className="text-sm md:text-lg hover:underline" href="#">
